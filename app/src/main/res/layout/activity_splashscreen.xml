@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:backgroundTintMode="add">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_above="@+id/btn2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="@color/white"
+        android:text="AREA OF TRIANGLE"
+        android:onClick="btn1AREA_OF_TRIANGLE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold|italic"
+        app:iconTint="@color/black"
+        app:strokeColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="258dp"
+        android:layout_height="87dp"
+        android:layout_above="@+id/btn3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/white"
+        android:text="AREA OF CIRCLE"
+        android:onClick="btn2AREA_OF_CIRCLE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="@color/white"
+        android:textStyle="normal|bold|italic"
+        app:iconTint="@color/white" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_above="@+id/btn4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:text="AREA OF RECTANGLE"
+        android:onClick="btn3AREA_OF_RECTANGLE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="254dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="@color/white"
+        android:text="AREA OF SQUARE"
+        android:onClick="btn4AREA_OF_SQUARE"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold|italic" />
+</RelativeLayout>
